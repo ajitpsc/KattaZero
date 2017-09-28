@@ -15,6 +15,7 @@ import static com.example.android.kattazero.cellState.ZERO;
 
 public class KattaZero {
     //check if comment updated
+    private int ajit=0;
     private final int SIZE = 3;
     private final int INVALID_LOCATION = -1;
     public int lastPosX = INVALID_LOCATION;
