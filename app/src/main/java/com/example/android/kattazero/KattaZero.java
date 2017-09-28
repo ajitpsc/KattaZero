@@ -14,7 +14,7 @@ import static com.example.android.kattazero.cellState.ZERO;
 
 
 public class KattaZero {
-
+    //check if comment updated
     private final int SIZE = 3;
     private final int INVALID_LOCATION = -1;
     public int lastPosX = INVALID_LOCATION;
@@ -103,6 +103,7 @@ public class KattaZero {
             }
             changePlayer();
             return;
+
         }
         else{
             Log.v("Ajit","No Cell is not Empty");
